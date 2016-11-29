@@ -1,6 +1,179 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#0f5591</color>
+    <color name="colorPrimaryDark">#0b4372</color>
+    <color name="colorAccent">#4CAF50</color>
+    <color name="colorAccentLight">#A7D9A9</color>
+
+    <color name="accent2">#38B8E7</color>
+    <color name="accent2_dark">#0D97CA</color>
+
+
+    <color name="trans">#00000000</color>
+    <color name="background">#efeff4</color>
+    <color name="background_light">#D2D2D2</color>
+    <color name="text_cashbook_1">#008b8b</color>
+    <color name="text_cashbook_2">#ee1432</color>
+    <color name="text_cashbook_3">#1d7ccb</color>
+    <color name="text_cashbook_4">#4ca51b</color>
+
+    <!--Material Colors-->
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#FF5B5B5B</color>
+    <color name="secondary_text_light">@color/disable_light</color>
+    <color name="secondary_text_deep">@color/background</color>
+
+
+    <color name="divider">#cccbd0</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="chrome_grey">#F2F2F2</color>
+
+    <color name="white_1">#AFFFFFFF</color>
+    <color name="disable">#FF999999</color>
+    <color name="disable_light">#75757575</color>
+
+
+    <color name="red">#F44336</color>
+    <color name="pink">#FF4081</color>
+    <color name="purple">#9C27B0</color>
+    <color name="deepblue">#7C4DFF</color>
+    <color name="indigo">#3F51B5</color>
+    <color name="blue">#448AFF</color>
+    <color name="lightblue">#03A9F4</color>
+    <color name="cyan">#00BCD4</color>
+    <color name="teal">#009688</color>
+    <color name="green">#4CAF50</color>
+    <color name="lightgreen">#8BC34A</color>
+    <color name="lime">#CDDC39</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="amber">#FFC107</color>
+    <color name="orange">#FF9800</color>
+    <color name="deeporange">#FF5722</color>
+    <color name="brown">#795548</color>
+    <color name="grey">#9E9E9E</color>
+    <color name="bluegrey">#607D8B</color>
+
+    <color name="trans_black_75">#BF000000</color>
+    <color name="trans_black_50">#80000000</color>
+    <color name="trans_black_25">#40000000</color>
+
+    <color name="green_theme">#017C67</color>
+    <color name="green_theme_dark">#00715C</color>
+    <color name="green_theme_pink">#AF3F3F</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="showcase_bg">#ee0D97CA</color>
+    <color name="olive">#808000</color>
+    <color name="bg_order_item">#e7e9e6</color>
+    <color name="unit_text_dashboard">#878787</color>
+    <color name="white_tran_75">#e6ffffff</color>
+    <color name="customer_name">#236093</color>
+
+    <color name="c1">#008ec6</color>
+    <color name="c2">#6fb455</color>
+    <color name="c3">#ffce00</color>
+    <color name="c4">#d64457</color>
+    <color name="c5">#5148b5</color>
+    <color name="c6">#1ca3a5</color>
+    <color name="c7">#4b6580</color>
+    <color name="c8">#e67e22</color>
+    <color name="c9">#6e9992</color>
+    <color name="c10">#c14d87</color>
+    <color name="c11">#660033</color>
+    <color name="c12">#663300</color>
+    <color name="c13">#009ac6</color>
+    <color name="c14">#e94977</color>
+    <color name="c15">#5eaa02</color>
+    <color name="c16">#bf302a</color>
+    <color name="c17">#1969cc</color>
+    <color name="c18">#e43c0d</color>
+    <color name="c19">#fe9900</color>
+    <color name="c20">#06941a</color>
+    <color name="c21">#9d1599</color>
+    <color name="c22">#a0410d</color>
+    <color name="c23">#9e0b0f</color>
+    <color name="c24">#a3620a</color>
+    <color name="c25">#003663</color>
+    <color name="c26">#4b0049</color>
+    <color name="c27">#603913</color>
+    <color name="c28">#662d91</color>
+    <color name="c29">#004a80</color>
+    <color name="c30">#64be5c</color>
+    <color name="c31">#231f20</color>
+    <color name="c32">#00652e</color>
+    <color name="c33">#006c6e</color>
+    <color name="c34">#2f69b3</color>
+    <color name="c35">#ba006f</color>
+    <color name="c36">#f05ba1</color>
+    <color name="c37">#2e0557</color>
+    <color name="c38">#382526</color>
+    <color name="c39">#e11b22</color>
+    <color name="c40">#645e00</color>
+    <color name="c41">#81ca9c</color>
+    <color name="c42">#2b6447</color>
+    <color name="c43">#00a5e4</color>
+    <color name="c44">#645faa</color>
+    <color name="c45">#26247b</color>
+    <color name="c46">#e3e41a</color>
+    <color name="c47">#dd5928</color>
+    <color name="c48">#3300ff</color>
+    <color name="c49">#444444</color>
+    <color name="c50">#c9009d</color>
+    <color name="c51">#004f5d</color>
+
+
+    <array name="color_chart">
+        <item>@color/c1</item>
+        <item>@color/c2</item>
+        <item>@color/c3</item>
+        <item>@color/c4</item>
+        <item>@color/c5</item>
+        <item>@color/c6</item>
+        <item>@color/c7</item>
+        <item>@color/c8</item>
+        <item>@color/c9</item>
+        <item>@color/c10</item>
+        <item>@color/c11</item>
+        <item>@color/c12</item>
+        <item>@color/c13</item>
+        <item>@color/c14</item>
+        <item>@color/c15</item>
+        <item>@color/c16</item>
+        <item>@color/c17</item>
+        <item>@color/c18</item>
+        <item>@color/c19</item>
+        <item>@color/c20</item>
+        <item>@color/c21</item>
+        <item>@color/c22</item>
+        <item>@color/c23</item>
+        <item>@color/c24</item>
+        <item>@color/c25</item>
+        <item>@color/c26</item>
+        <item>@color/c27</item>
+        <item>@color/c28</item>
+        <item>@color/c29</item>
+        <item>@color/c30</item>
+        <item>@color/c31</item>
+        <item>@color/c32</item>
+        <item>@color/c33</item>
+        <item>@color/c34</item>
+        <item>@color/c35</item>
+        <item>@color/c36</item>
+        <item>@color/c37</item>
+        <item>@color/c38</item>
+        <item>@color/c39</item>
+        <item>@color/c40</item>
+        <item>@color/c41</item>
+        <item>@color/c42</item>
+        <item>@color/c43</item>
+        <item>@color/c44</item>
+        <item>@color/c45</item>
+        <item>@color/c46</item>
+        <item>@color/c47</item>
+        <item>@color/c48</item>
+        <item>@color/c49</item>
+        <item>@color/c50</item>
+        <item>@color/c51</item>
+    </array>
 </resources>

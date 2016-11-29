@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        style="@style/LayoutCustomerItem.ItemProduct"
+        android:orientation="horizontal"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:weightSum="3">
+
+        <EditText
+            android:id="@+id/value1"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            style="@style/TittleItem.TitleInfoProduct"
+            android:hint="Coefficient"
+            />
+
+        <EditText
+            android:id="@+id/value2"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            style="@style/TittleItem.TitleInfoProduct"
+            android:hint="Standard Error"
+             />
+
+        <EditText
+            android:id="@+id/value3"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            style="@style/TittleItem.TitleInfoProduct"
+            android:hint="T-Ratio [Prob]"
+             />
+
+
+    </LinearLayout>
+
+    <View style="@style/Divider" />
+</LinearLayout>
