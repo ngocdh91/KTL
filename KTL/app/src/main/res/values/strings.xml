@@ -2,5 +2,6 @@
     <string name="app_name">Kinh Tế Lượng</string>
     <string name="app_title">Bài tập Kinh Tế Lượng</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
-    <string name="main_item_1">Bài Tập 1</string>
+    <string name="main_item_1">Đề loại 1</string>
+    <string name="main_item_2">Đề loại 2</string>
 </resources>

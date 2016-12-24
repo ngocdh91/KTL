@@ -50,11 +50,14 @@
 
             <View style="@style/Divider" />
 
-            <LinearLayout style="@style/LayoutCustomerItem.ItemProduct">
+            <LinearLayout
+                android:id="@+id/item2"
+                style="@style/LayoutCustomerItem.ItemProduct">
 
                 <TextView
                     android:id="@+id/tv_product_price"
-                    style="@style/TittleItem.ContentInfoProduct" />
+                    style="@style/TittleItem.ContentInfoProduct"
+                    android:text="@string/main_item_2"/>
             </LinearLayout>
 
             <View style="@style/Divider" />
