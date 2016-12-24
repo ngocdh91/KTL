@@ -6,11 +6,6 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.LinearLayout;
-import android.widget.Toast;
-
-import butterknife.BindView;
-import butterknife.ButterKnife;
-import butterknife.OnClick;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         mToolbar = (Toolbar)findViewById(R.id.toolbar);
         mLnShowExcercise = (LinearLayout)findViewById(R.id.item1);
         setSupportActionBar(mToolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(false);
         mLnShowExcercise.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

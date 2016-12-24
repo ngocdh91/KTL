@@ -6,9 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.view.MenuItem;
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
 import kl.tool.ngoc.ktl.adapter.ExOneAdapter;
 import kl.tool.ngoc.ktl.view.DividerItemDecoration;
 
@@ -26,11 +25,10 @@ public class DoExOneActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ex_one);
-        mToolbar = (Toolbar)findViewById(R.id.toolbar);
-        mRvItem = (RecyclerView)findViewById(R.id.rv_item);
+        mToolbar = (Toolbar) findViewById(R.id.toolbar);
+        mRvItem = (RecyclerView) findViewById(R.id.rv_item);
         setSupportActionBar(mToolbar);
-
-
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         //set adapter
         mAdapter = new ExOneAdapter();
 
@@ -38,5 +36,16 @@ public class DoExOneActivity extends AppCompatActivity {
         mRvItem.setLayoutManager(layoutManager);
         mRvItem.addItemDecoration(new DividerItemDecoration(this, R.drawable.item_divider_simple));
         mRvItem.setAdapter(mAdapter);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                onBackPressed();
+                break;
+
+        }
+        return false;
     }
 }
