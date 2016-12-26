@@ -35,7 +35,7 @@ public class ExOneAdapter extends RecyclerView.Adapter<ExOneAdapter.ExOneHolder>
 
     @Override
     public int getItemCount() {
-        return 1;
+        return 3;
     }
 
     public static class ExOneHolder extends RecyclerView.ViewHolder {

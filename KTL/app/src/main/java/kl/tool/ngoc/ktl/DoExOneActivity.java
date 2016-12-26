@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
 import android.view.MenuItem;
 
 import kl.tool.ngoc.ktl.adapter.ExOneAdapter;
@@ -36,6 +37,12 @@ public class DoExOneActivity extends AppCompatActivity {
         mRvItem.setLayoutManager(layoutManager);
         mRvItem.addItemDecoration(new DividerItemDecoration(this, R.drawable.item_divider_simple));
         mRvItem.setAdapter(mAdapter);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu, menu);
+        return true;
     }
 
     @Override

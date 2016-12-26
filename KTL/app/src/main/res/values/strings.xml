@@ -4,4 +4,7 @@
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="main_item_1">Đề loại 1</string>
     <string name="main_item_2">Đề loại 2</string>
+    <string name="add">Thêm</string>
+    <string name="title">Thêm</string>
+    <string name="positive">Thêm</string>
 </resources>

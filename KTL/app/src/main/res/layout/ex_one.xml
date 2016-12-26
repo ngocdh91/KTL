@@ -24,22 +24,30 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <android.support.v4.widget.NestedScrollView
-        android:id="@+id/nested_scr"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        android:layout_height="wrap_content">
 
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/rv_item"
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/nested_scr"
+            android:layout_above="@+id/total_result"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:clipToPadding="false"
+            android:layout_height="wrap_content"
             app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-        </android.support.v7.widget.RecyclerView>
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_item"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
+            </android.support.v7.widget.RecyclerView>
+        </android.support.v4.widget.NestedScrollView>
 
-    </android.support.v4.widget.NestedScrollView>
+        <include
+            android:id="@+id/total_result"
+            layout="@layout/ex1_result" />
 
+    </RelativeLayout>
 </LinearLayout>
