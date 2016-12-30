@@ -1,6 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/LayoutCustomerItem.ItemProduct"
+        android:orientation="horizontal"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:weightSum="2">
+
+        <TextView
+            style="@style/TittleItem.TitleInfoProduct"
+            android:layout_weight="0.6"
+            android:inputType="numberDecimal"
+            android:text="n :" />
+
+        <EditText
+            android:id="@+id/value1"
+            style="@style/TittleItem.TitleInfoProduct"
+            android:layout_weight="1.3"
+            android:inputType="numberDecimal"
+            android:text="0" />
+
+
+    </LinearLayout>
+
+    <View style="@style/Divider" />
+
+    <LinearLayout
+        style="@style/LayoutCustomerItem.ItemProduct"
+        android:orientation="horizontal"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:weightSum="2">
+
+        <TextView
+            style="@style/TittleItem.TitleInfoProduct"
+            android:layout_weight="0.6"
+            android:inputType="numberDecimal"
+            android:text="Y :" />
+
+        <EditText
+            android:id="@+id/value2"
+            style="@style/TittleItem.TitleInfoProduct"
+            android:layout_weight="1.5"
+            android:inputType="numberDecimal"
+            android:text="0" />
+    </LinearLayout>
+
+    <View style="@style/Divider" />
+
+    <LinearLayout
+        style="@style/LayoutCustomerItem.ItemProduct"
+        android:orientation="horizontal"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:weightSum="2">
+
+        <TextView
+            style="@style/TittleItem.TitleInfoProduct"
+            android:layout_weight="0.6"
+            android:inputType="numberDecimal"
+            android:text="X1 :" />
+
+        <EditText
+            android:id="@+id/value3"
+            style="@style/TittleItem.TitleInfoProduct"
+            android:layout_weight="1.3"
+            android:inputType="numberDecimal"
+            android:text="0" />
+
+
+    </LinearLayout>
+
+    <View style="@style/Divider" />
+
+    <LinearLayout
+        style="@style/LayoutCustomerItem.ItemProduct"
+        android:orientation="horizontal"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:weightSum="2">
+
+        <TextView
+            style="@style/TittleItem.TitleInfoProduct"
+            android:layout_weight="0.6"
+            android:inputType="numberDecimal"
+            android:text="X2 :" />
+
+        <EditText
+            android:id="@+id/value4"
+            style="@style/TittleItem.TitleInfoProduct"
+            android:layout_weight="1.5"
+            android:inputType="numberDecimal"
+            android:text="0" />
+    </LinearLayout>
 
 </LinearLayout>

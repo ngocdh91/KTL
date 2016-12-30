@@ -7,4 +7,6 @@
     <string name="add">Thêm</string>
     <string name="title">Thêm</string>
     <string name="positive">Thêm</string>
+    <string name="negative">Hủy</string>
+
 </resources>
